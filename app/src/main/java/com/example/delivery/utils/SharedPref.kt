@@ -38,4 +38,8 @@ class SharedPref(activity: Activity) {
             return data
         }
 
+    fun remove(key: String) {
+        prefs?.edit()?.remove(key)?.apply()
+    }
+
 }
