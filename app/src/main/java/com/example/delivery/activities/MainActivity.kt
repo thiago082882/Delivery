@@ -59,7 +59,7 @@ class MainActivity : AppCompatActivity() {
                     if(response.body()?.isSuccess == true){
                         Toast.makeText(this@MainActivity, response.body()?.message, Toast.LENGTH_LONG).show()
                         saveUserInSession(response.body()?.data.toString())
-                        goToClientHome()
+
 
                      }else {
                         Toast.makeText(this@MainActivity, "Os dados não estão corretos ", Toast.LENGTH_LONG).show()
@@ -86,12 +86,25 @@ class MainActivity : AppCompatActivity() {
         startActivity(i)
     }
 
+    private fun goToSelectRol() {
+        val i = Intent(this, SelectRoleActivity::class.java)
+        startActivity(i)
+    }
+
 
     private fun saveUserInSession(data: String) {
         val sharedPref = SharedPref(this)
         val gson = Gson()
         val user = gson.fromJson(data, User::class.java)
         sharedPref.save("user", user)
+
+        if(user.roles?.size!! > 1){ //if user has more than one role
+
+            goToSelectRol()
+
+        }else { //if user has only one role
+            goToClientHome()
+        }
     }
 
 

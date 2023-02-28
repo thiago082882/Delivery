@@ -10,9 +10,12 @@ import android.widget.EditText
 import android.widget.ImageView
 import android.widget.Toast
 import com.example.delivery.R
+import com.example.delivery.activities.client.home.ClientHomeActivity
 import com.example.delivery.models.ResponseHttp
 import com.example.delivery.models.User
 import com.example.delivery.provider.UsersProvider
+import com.example.delivery.utils.SharedPref
+import com.google.gson.Gson
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
@@ -83,6 +86,11 @@ class RegisterActivity : AppCompatActivity() {
                     call: Call<ResponseHttp>,
                     response: Response<ResponseHttp>
                 ) {
+
+                    if(response.body()?.isSuccess==true){
+                        saveUserInSession(response.body()?.data.toString())
+                        goToClientHome()
+                    }
                     Toast.makeText(this@RegisterActivity, response.body()?.message, Toast.LENGTH_LONG).show()
                     Log.d(TAG,"Response: ${response}")
                     Log.d(TAG,"Body: ${response.body()}")
@@ -98,6 +106,16 @@ class RegisterActivity : AppCompatActivity() {
         }
 
 
+    }
+    private fun goToClientHome() {
+        val i = Intent(this, ClientHomeActivity::class.java)
+        startActivity(i)
+    }
+    private fun saveUserInSession(data: String) {
+        val sharedPref = SharedPref(this)
+        val gson = Gson()
+        val user = gson.fromJson(data, User::class.java)
+        sharedPref.save("user", user)
     }
     fun String.isEmailValid(): Boolean {
         return !TextUtils.isEmpty(this) && android.util.Patterns.EMAIL_ADDRESS.matcher(this).matches()
