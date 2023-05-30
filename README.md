@@ -96,6 +96,12 @@ O projeto foi desenvolvido utilizando as seguintes bibliotecas:
 - https://square.github.io/retrofit/ 
 - https://github.com/bumptech/glide (Carregamento mais leve das imagens)
 - https://developer.android.com/jetpack/androidx/releases/recyclerview?hl=pt-br
+- https://github.com/Stormotion-Mobile/credit-card-flow
+- https://github.com/malikdawar/drawroute
+- https://github.com/jAsOniltok/Android-Kotlin-ViewPager2-Sample-Example-Simple
+- https://github.com/tommasoberlose/progress-dialog
+- https://github.com/hdodenhof/CircleImageView
+
 
 
 
@@ -104,7 +110,7 @@ O projeto foi desenvolvido utilizando as seguintes bibliotecas:
 
 ## 🚀 Video
 
-https://www.linkedin.com/posts/thiagocostadejesus_um-pequeno-projeto-de-food-para-aprendizado-activity-6981691987204714496-DZAh?utm_source=share&utm_medium=member_desktop
+https://www.linkedin.com/posts/thiagocostadejesus_appdedelivery-tecnologia-inovaaexaeto-activity-7066453212534325248-De6c?utm_source=share&utm_medium=member_desktop
 
 ---
 
