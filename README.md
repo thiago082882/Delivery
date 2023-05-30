@@ -59,20 +59,24 @@ Em Andamento
 
 ## 📖 Sobre
 
-Aplicativo de delivery! 📱💨✨
-Combinando a potência do Kotlin no front-end e o back-end poderoso do Node.js, criei uma solução completa para atender às necessidades do meu aplicativo de delivery. Aqui estão alguns dos recursos incríveis que implementei:
+Desenvolvi um incrível aplicativo de delivery que combina a potência do Kotlin no front-end com o back-end poderoso do Node.js. Aqui estão alguns dos recursos que implementei para oferecer uma experiência completa aos usuários:
+
 ✅ Login e cadastro de usuário com JSON Web Tokens para garantir a segurança dos dados dos usuários.
-✅ Manipulação de dados em tempo real com o Socket.IO, permitindo uma experiência de usuário fluida e interativa.
-✅ Notificações push com Firebase Cloud Messaging, para manter meus usuários atualizados sobre seus pedidos e promoções exclusivas.
-✅ Armazenamento de imagens na nuvem, garantindo que as fotos dos produtos sejam carregadas rapidamente e estejam sempre disponíveis.
-✅ Integração perfeita com a API do Google Maps, permitindo que meus usuários visualizem e rastreiem suas entregas em tempo real.
-✅ Utilização do Retrofit para facilitar as solicitações HTTP, tornando a comunicação com o servidor rápida e eficiente.
-✅ Desenvolvimento de uma API REST completa com Node.js, fornecendo endpoints robustos para suportar todas as funcionalidades do meu aplicativo.
-✅ Realização de consultas SQL simples e complexas, garantindo um acesso eficiente e confiável ao banco de dados.
-✅ Implementação do padrão MVC (Model-View-Controller) para garantir uma arquitetura organizada e escalável.
-✅ Processamento de pagamentos seguro e confiável com Mercado Pago e PayPal, oferecendo várias opções de pagamento aos meus usuários.
-✅ Gerenciamento de câmeras para permitir que os restaurantes capturem fotos dos seus pratos e as carreguem diretamente no aplicativo.
-✅ Realização do deploy do aplicativo utilizando o Vercel, garantindo uma implantação rápida e eficiente.
+✅ Manipulação de dados em tempo real com o Socket.IO, proporcionando uma experiência de usuário fluida e interativa.
+✅ Notificações push com Firebase Cloud Messaging, mantendo os usuários atualizados sobre pedidos e promoções exclusivas.
+✅ Armazenamento de imagens na nuvem, garantindo rápido carregamento e disponibilidade das fotos dos produtos.
+✅ Integração perfeita com a API do Google Maps, permitindo que os usuários visualizem e rastreiem suas entregas em tempo real.
+✅ Utilização do Retrofit para facilitar solicitações HTTP, tornando a comunicação com o servidor rápida e eficiente.
+
+Além disso, desenvolvi uma API REST completa com Node.js, fornecendo endpoints robustos para suportar todas as funcionalidades do aplicativo. Realizei consultas SQL simples e complexas para garantir um acesso eficiente e confiável ao banco de dados.
+
+Implementei o padrão MVC (Model-View-Controller) para garantir uma arquitetura organizada e escalável. Também integrei processamento de pagamentos seguro e confiável com Mercado Pago e PayPal, oferecendo várias opções de pagamento aos usuários.
+
+Para facilitar a interação com os restaurantes, implementei o gerenciamento de câmeras, permitindo que eles capturem fotos dos pratos e as carreguem diretamente no aplicativo.
+
+Por fim, realizei o deploy do aplicativo utilizando o Vercel, garantindo uma implantação rápida e eficiente.
+
+Meu aplicativo de delivery está pronto para proporcionar uma experiência incrível aos usuários, combinando recursos avançados, segurança e eficiência em cada etapa do processo. 📱💨✨
 
 
 ## 🚀 Ferramentas utilizadas
