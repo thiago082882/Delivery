@@ -59,12 +59,20 @@ Em Andamento
 
 ## 📖 Sobre
 
-
-"Em Andamento"
-
-
-
-Este projeto foi desenvolvido durante minha jornada de estudos, com intuito de aprimorar os conhecimentos em desenvolvimento de android nativo.
+Aplicativo de delivery! 📱💨✨
+Combinando a potência do Kotlin no front-end e o back-end poderoso do Node.js, criei uma solução completa para atender às necessidades do meu aplicativo de delivery. Aqui estão alguns dos recursos incríveis que implementei:
+✅ Login e cadastro de usuário com JSON Web Tokens para garantir a segurança dos dados dos usuários.
+✅ Manipulação de dados em tempo real com o Socket.IO, permitindo uma experiência de usuário fluida e interativa.
+✅ Notificações push com Firebase Cloud Messaging, para manter meus usuários atualizados sobre seus pedidos e promoções exclusivas.
+✅ Armazenamento de imagens na nuvem, garantindo que as fotos dos produtos sejam carregadas rapidamente e estejam sempre disponíveis.
+✅ Integração perfeita com a API do Google Maps, permitindo que meus usuários visualizem e rastreiem suas entregas em tempo real.
+✅ Utilização do Retrofit para facilitar as solicitações HTTP, tornando a comunicação com o servidor rápida e eficiente.
+✅ Desenvolvimento de uma API REST completa com Node.js, fornecendo endpoints robustos para suportar todas as funcionalidades do meu aplicativo.
+✅ Realização de consultas SQL simples e complexas, garantindo um acesso eficiente e confiável ao banco de dados.
+✅ Implementação do padrão MVC (Model-View-Controller) para garantir uma arquitetura organizada e escalável.
+✅ Processamento de pagamentos seguro e confiável com Mercado Pago e PayPal, oferecendo várias opções de pagamento aos meus usuários.
+✅ Gerenciamento de câmeras para permitir que os restaurantes capturem fotos dos seus pratos e as carreguem diretamente no aplicativo.
+✅ Realização do deploy do aplicativo utilizando o Vercel, garantindo uma implantação rápida e eficiente.
 
 
 ## 🚀 Ferramentas utilizadas
