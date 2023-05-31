@@ -8,7 +8,7 @@ import android.util.Log
 import com.google.gson.Gson
 import java.lang.Exception
 
-class SharedPref(activity: Activity) {
+class SharedPref(activity: Activity)  {
 
     private var prefs: SharedPreferences? = null
 
@@ -33,10 +33,11 @@ class SharedPref(activity: Activity) {
         }
 
     }
-        fun getData(key: String): String? {
-            val data = prefs?.getString(key, "")
-            return data
-        }
+
+    fun getData(key: String): String? {
+        val data = prefs?.getString(key, "")
+        return data
+    }
 
     fun remove(key: String) {
         prefs?.edit()?.remove(key)?.apply()

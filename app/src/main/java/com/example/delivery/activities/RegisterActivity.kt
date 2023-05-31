@@ -72,7 +72,7 @@ class RegisterActivity : AppCompatActivity() {
             val user = User(
 
                 name= name,
-                lastName=lastname,
+                lastname=lastname,
                 email=email,
                 phone=phone,
                 password= password
@@ -108,7 +108,7 @@ class RegisterActivity : AppCompatActivity() {
 
     }
     private fun goToClientHome() {
-        val i = Intent(this, ClientHomeActivity::class.java)
+        val i = Intent(this, SaveImageActivity::class.java)
         startActivity(i)
     }
     private fun saveUserInSession(data: String) {

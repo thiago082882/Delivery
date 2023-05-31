@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.client.address.create.ClientAddressCreateActivity">
+
+
+    <include layout="@layout/action_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="56dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Complete com seus Dados"
+            android:textSize="18sp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            />
+
+
+        <EditText  android:id="@+id/edt_text_address"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Endereço"
+            android:background="@drawable/edttext_custom"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:padding="15dp"
+            android:inputType="text"
+            />
+
+
+        <EditText  android:id="@+id/edt_text_neighborhood"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Bairro"
+            android:background="@drawable/edttext_custom"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:padding="15dp"
+            android:inputType="text"
+            />
+
+
+        <EditText  android:id="@+id/edt_text_ref_point"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="Ponto de referência"
+            android:background="@drawable/edttext_custom"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:padding="15dp"
+            android:inputType="text"
+            android:focusable="false"
+            android:clickable="true"
+            android:cursorVisible="false"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_create_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Criar Endereço"
+        android:textColor="@color/black"
+        android:layout_marginBottom="25dp"
+        android:layout_gravity="bottom"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/rounded_button"
+        />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -11,4 +11,8 @@
     <color name="green_accent">#037037</color>
     <color name="gray">#CAC5C3</color>
     <color name="gray_light">#F5F5F5</color>
+    <color name="red">#C64B4B</color>
+    <color name="orange">#D16847</color>
+    <color name="blue">#4F77B5</color>
+    <color name="green_light">#6BDCA1</color>
 </resources>
